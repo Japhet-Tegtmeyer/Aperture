@@ -14,6 +14,15 @@
 		AF839AEB2CA8554300DCCB2C /* ApertureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF839AEA2CA8554300DCCB2C /* ApertureTests.swift */; };
 		AF839AF52CA8554300DCCB2C /* ApertureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF839AF42CA8554300DCCB2C /* ApertureUITests.swift */; };
 		AF839AF72CA8554300DCCB2C /* ApertureUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF839AF62CA8554300DCCB2C /* ApertureUITestsLaunchTests.swift */; };
+		AF839B142CA8633100DCCB2C /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF839B132CA8633100DCCB2C /* WelcomeView.swift */; };
+		AF839B162CA863AD00DCCB2C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF839B152CA863A800DCCB2C /* Extensions.swift */; };
+		AF839B182CA877EF00DCCB2C /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF839B172CA877EF00DCCB2C /* HomeView.swift */; };
+		AF839B1A2CA89A9200DCCB2C /* TopBarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF839B192CA89A9200DCCB2C /* TopBarButton.swift */; };
+		AF839B1F2CA89DD600DCCB2C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF839B1E2CA89DD300DCCB2C /* User.swift */; };
+		AF839B212CA89DDE00DCCB2C /* Wallpaper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF839B202CA89DDB00DCCB2C /* Wallpaper.swift */; };
+		AF839B232CA8A10400DCCB2C /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF839B222CA8A10400DCCB2C /* InfoView.swift */; };
+		AF839B252CA8A3D800DCCB2C /* BGGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF839B242CA8A3D800DCCB2C /* BGGradient.swift */; };
+		AF839B272CA8B19600DCCB2C /* CheckboxToggleStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF839B262CA8B19600DCCB2C /* CheckboxToggleStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +53,15 @@
 		AF839AF02CA8554300DCCB2C /* ApertureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ApertureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF839AF42CA8554300DCCB2C /* ApertureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApertureUITests.swift; sourceTree = "<group>"; };
 		AF839AF62CA8554300DCCB2C /* ApertureUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApertureUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AF839B132CA8633100DCCB2C /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		AF839B152CA863A800DCCB2C /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		AF839B172CA877EF00DCCB2C /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		AF839B192CA89A9200DCCB2C /* TopBarButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopBarButton.swift; sourceTree = "<group>"; };
+		AF839B1E2CA89DD300DCCB2C /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		AF839B202CA89DDB00DCCB2C /* Wallpaper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wallpaper.swift; sourceTree = "<group>"; };
+		AF839B222CA8A10400DCCB2C /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		AF839B242CA8A3D800DCCB2C /* BGGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BGGradient.swift; sourceTree = "<group>"; };
+		AF839B262CA8B19600DCCB2C /* CheckboxToggleStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckboxToggleStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +113,8 @@
 			isa = PBXGroup;
 			children = (
 				AF839AD92CA8553F00DCCB2C /* ApertureApp.swift */,
-				AF839ADB2CA8553F00DCCB2C /* ContentView.swift */,
+				AF839B1B2CA89DA200DCCB2C /* Views */,
+				AF839B1D2CA89DCB00DCCB2C /* Models */,
 				AF839ADD2CA8554200DCCB2C /* Assets.xcassets */,
 				AF839ADF2CA8554200DCCB2C /* Preview Content */,
 			);
@@ -125,6 +144,38 @@
 				AF839AF62CA8554300DCCB2C /* ApertureUITestsLaunchTests.swift */,
 			);
 			path = ApertureUITests;
+			sourceTree = "<group>";
+		};
+		AF839B1B2CA89DA200DCCB2C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AF839ADB2CA8553F00DCCB2C /* ContentView.swift */,
+				AF839B132CA8633100DCCB2C /* WelcomeView.swift */,
+				AF839B222CA8A10400DCCB2C /* InfoView.swift */,
+				AF839B172CA877EF00DCCB2C /* HomeView.swift */,
+				AF839B1C2CA89DB600DCCB2C /* Components */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AF839B1C2CA89DB600DCCB2C /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				AF839B192CA89A9200DCCB2C /* TopBarButton.swift */,
+				AF839B242CA8A3D800DCCB2C /* BGGradient.swift */,
+				AF839B262CA8B19600DCCB2C /* CheckboxToggleStyle.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		AF839B1D2CA89DCB00DCCB2C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AF839B1E2CA89DD300DCCB2C /* User.swift */,
+				AF839B202CA89DDB00DCCB2C /* Wallpaper.swift */,
+				AF839B152CA863A800DCCB2C /* Extensions.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +309,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF839ADC2CA8553F00DCCB2C /* ContentView.swift in Sources */,
+				AF839B142CA8633100DCCB2C /* WelcomeView.swift in Sources */,
+				AF839B212CA89DDE00DCCB2C /* Wallpaper.swift in Sources */,
+				AF839B272CA8B19600DCCB2C /* CheckboxToggleStyle.swift in Sources */,
 				AF839ADA2CA8553F00DCCB2C /* ApertureApp.swift in Sources */,
+				AF839B252CA8A3D800DCCB2C /* BGGradient.swift in Sources */,
+				AF839B182CA877EF00DCCB2C /* HomeView.swift in Sources */,
+				AF839B162CA863AD00DCCB2C /* Extensions.swift in Sources */,
+				AF839B1A2CA89A9200DCCB2C /* TopBarButton.swift in Sources */,
+				AF839B232CA8A10400DCCB2C /* InfoView.swift in Sources */,
+				AF839B1F2CA89DD600DCCB2C /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +490,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -463,6 +524,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
